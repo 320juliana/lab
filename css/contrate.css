@@ -1,0 +1,62 @@
+.tit1, .tit2{
+	color: red ;
+}
+.container{
+	max-width: 1170px;
+	min-width: 780px;
+	width: 90%;
+	margin: 0 auto;
+   
+    
+}
+
+.cont3{
+	 background: #E4E6EC ;
+ }
+ .factura li{
+ 	list-style: none;
+ 	display: inline;
+ }
+ h5{
+ 	color: #A22326;
+ }
+.uy{
+	display: inline;
+}
+footer{
+	clear: both;
+	background: black;
+	border-top: 5px solid #CE405E;
+
+}
+footer .container p  {
+	color: white;
+}
+.oli{
+	margin-left: 1%;
+	text-decoration: none;
+	display: block;
+	background:#CE405E;
+	color: white;
+	width: 120px;
+	text-align:center;
+	width: 120px;
+
+}
+.unsplash{
+	color: gray;
+
+}
+fieldset{
+	border: 2px solid red;
+
+}
+.titulo a {
+	border-bottom: dotted;
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+}
+p, .tit1, .tit2 {
+	font-size: 23px;
+}

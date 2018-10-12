@@ -1,0 +1,85 @@
+.fondo{
+	background: #E4E6EC;
+}
+p{
+	display: inline;
+	color: #EF1242;
+	font-size: 30px;
+}
+.container,.cont{
+	max-width: 1170px;
+	min-width: 780px;
+	width: 90%;
+	margin: 0 auto;
+    
+}
+h1{
+	font-size: 50px;
+}
+ .box{
+	text-align: right;
+    
+}
+.caj div {
+	background: #646470;
+	text-align: right;
+	float: right;
+	margin-right: 2%;
+	
+
+
+}
+.caj div .num1,.caj div .num2,.caj div .num3 {
+	border-right: .5px solid white;
+	float: left;
+	font-size: 100px;
+
+}
+.num1{
+	color:#23E404;
+}
+.num2{
+	color:#DA6E4A;
+}
+.num3{
+	color:#18BEDD;
+}
+.catego{
+	color: white;
+	display: inline;
+	font-size: 30px;
+
+
+}
+footer{
+	clear: both;
+	background: black;
+	border-top: 5px solid #CE405E;
+
+}
+footer .container p  {
+	color: white;
+}
+.unsplash{
+	color: gray;
+
+}
+.cont{
+	clear: both;
+}
+tr, td{
+	border-bottom: 1px solid gray;
+	padding-right: 130px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+b{
+	font-size: 25px;
+}
+
+
+
+
+
+
