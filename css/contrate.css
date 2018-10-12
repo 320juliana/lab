@@ -60,3 +60,7 @@ fieldset{
 p, .tit1, .tit2 {
 	font-size: 23px;
 }
+h4{
+	display: inline-block;
+	color: gray;
+}

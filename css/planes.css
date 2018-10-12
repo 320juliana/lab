@@ -16,8 +16,11 @@ p{
 h1{
 	font-size: 50px;
 }
- .box{
+ .box,.box p{
 	text-align: right;
+	margin-left: 20%;
+
+	
     
 }
 .caj div {
@@ -48,6 +51,7 @@ h1{
 	color: white;
 	display: inline;
 	font-size: 30px;
+	
 
 
 }
@@ -77,6 +81,29 @@ tr, td{
 b{
 	font-size: 25px;
 }
+ul  li a,li{
+
+	text-decoration: none;
+	display: block;
+	background:#CE405E;
+	color: white;
+	float: right;
+	width: 160px;
+	text-align:center;
+	list-style: none;
+	margin-bottom: 2%;
+}
+.container ul li a:hover{ 
+	background-color: white;
+	color: #CE405E;
+	-webkit-transition: height 2s ease;
+-moz-transition: height 2s ease;
+-ms-transition: height 2s ease;
+-o-transition: height 2s ease;
+transition: height 2s ease;
+}
+
+
 
 
 

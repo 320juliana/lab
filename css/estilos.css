@@ -24,20 +24,37 @@ h1 {
 	
 } 
 .pro:hover {
-	background-color: blue;
+	background-color: #FC000F;
+	font-size: 30px;
 
-	-moz-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px);
--webkit-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px);
--o-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px);
--ms-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px);
-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px);
 
-	-webkit-transition: all 1000ms ease-in-out;
-	-moz-transition: all 1000ms ease-in-out;
-	-ms-transition: all 1000ms ease-in-out;
-	-o-transition: all 1000ms ease-in-out;
-	transition: all 1000ms ease-in-out;
-} 
+		-moz-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-webkit-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-o-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-ms-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+			-webkit-transition: all 1000ms ease-in-out;
+			-moz-transition: all 1000ms ease-in-out;
+			-ms-transition: all 1000ms ease-in-out;
+			-o-transition: all 1000ms ease-in-out;
+			transition: all 2s ease-in-out;
+}
+ .pri:hover {
+	background-color: #FC000F;
+	font-size: 30px;
+
+
+		-moz-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-webkit-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-o-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		-ms-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+		transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
+			-webkit-transition: all 1000ms ease-in-out;
+			-moz-transition: all 1000ms ease-in-out;
+			-ms-transition: all 1000ms ease-in-out;
+			-o-transition: all 1000ms ease-in-out;
+			transition: all 2s ease-in-out;
+}
 ul  li .pro{
 
 	text-decoration: none;
@@ -72,8 +89,12 @@ article{
 	float: left;
 
 }
-article ul li{
+article .puntos{
 	padding: 5px;
+	clear: both;
+	padding-left: 20%;
+	list-style: square;
+
 }
 .container{
 	max-width: 1170px;
@@ -102,11 +123,7 @@ footer .container p  {
 }
 section .container
 }
-.puntos{
-	clear: both;
-	
 
-}
 
 
 

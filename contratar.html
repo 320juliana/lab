@@ -24,39 +24,38 @@
            		<p><b>Plan</b></p>
            		<select name="plan" id="plan">
            			<option value="" selected="select">Escoja un plan en la lista</option>
-           			<option value="">1</option>
-           			<option value="">2</option>
-           			<option value="">3</option>
-           			<option value="">4</option>
-           			<option value="">5</option>
+           			<option value="">Gratuito</option>
+           			<option value="">premium</option>
+           			<option value="">Profecional</option>
+           			
            		</select>
 
            		<ul class="factura"><b>Plan Facturacion</b>
            			<li>
-           			  <input type="radio" name="anual" id="anual"     checked="checked">
-           		      <label for="name">Anual</label>
+           			  <input type="radio" name="anual" id="anual" checked="checked" value="" >
+           		      <label for="name1" >Anual</label>
            		    </li>
            		    <li>
-           		    	<input type="radio" name="trimestral" id="trimestral"  >
-           		    	<label for="name">Trimestral</label>
+           		    	<input type="radio" name="trimestral" id="trimestral" value="">
+           		    	<label for="name2">Trimestral</label>
            		    </li>
            		    <li>
-           		    	<input type="radio" name="mensual" id="mensual">
-           		    	<label for="name">Mensual</label>
+           		    	<input type="radio" name="mensual" id="mensual" value="">
+           		    	<label for="name3">Mensual</label>
            		    </li>
            		</ul>
            	</div>
-          </fieldset><br>
+          </fieldset><br> 
           <fieldset>
           	<legend class="tit2">2. Cree una cuenta de administrador</legend>
           	<div class="container">
           		<h5>* Campos obligatorios</h5>
           		<p><b>Nombre de usuario *</b></p>
-          		<input type="text" name="name" size="40" id="name" value="">
+          		<input type="text" name="name" size="40" id="name" value="" required>
           		<p><b>Contraseña *</b></p>
-          		<input type="password" name="password" size="40" id="password" value="">
+          		<input type="password" name="password" size="40" id="password" minlength="8"  value="" required><h4> la contraseña debe ser minimo de 8 cararcteres</h4>
           		<p><b>Repetir Contraseña *</b></p>
-          		<input type="password" name="password" size="40" id="password" value="">
+          		<input type="password" name="password" size="40" id="password" minlength="8" value="" required>
 
           	</div>
 
@@ -66,20 +65,24 @@
           	<div class="container">
           		<h5>* Campos obligatorios</h5>
           		<p><b>Nombre *</b></p>
-          		<input type="text" name="name" size="60"  id="name" value="">
+          		<input type="text" name="name" size="60"  id="name" value="" required>
           		<p><b>Apellidos *</b></p>
-          		<input type="text" name="apellido" size="60" id="apellido" value="">
+          		<input type="text" name="apellido" size="60" id="apellido" value="" required>
           		<p><b>Telefono *</b></p>
-          		<input type="phone" name="phone" size="40"id="phone" value="">
+          		<input type="phone" name="phone" size="40"id="phone" value="" required> 
           		<p></b>Correo electronico *<b></p>
-          		<input type="email" name="email" size="60" id="email" value="">
+          		<input type="email" name="email" size="60" id="email" value="" required>
           		<p><b>Fecha Nacimiento *</b></p>
           		<input type="date" name="date" id="date" value="">
           		<p><b>Nombre de la empresa</b></p>
-          		<input type="text" name="empresa" size="60" id="empresa" value="">
+          		<input type="text" name="empresa" size="60" id="empresa" value="" required>
           		<p><b>Tamaño de la empresa</b></p>
           		 <select name="tamanio" id="tamanio">
           		   <option value="" selected="select">Escoja un elemento de la lista</option>
+                 <option value="">Menos de 50 trabajadores</option>
+                 <option value="">De 50 a 99 trabajadores</option>
+                 <option value="">De 100 a 499 trabajadores</option>
+                 <option value="">Mas de 500 trabajadores</option>
           		</select><br>
           		
           		
