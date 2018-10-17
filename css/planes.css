@@ -6,29 +6,12 @@ p{
 	color: #EF1242;
 	font-size: 30px;
 }
-@media only screen (max-width: 800px) {
-	.container{
-		margin: 0;
-		overflow:hidden;
-		width: 100%;
-		font-variant: small-caps;
-      }
-      article img{
-      	clear: both;
-      	width: 50%;
-      	display: block;
-      }
-      
-		
-		
-		
-	}
 .container,.cont{
 
 	margin: 0 auto;   
 	max-width: 1670px;
 	min-width: 670px;
-	width: 80%;
+	width: 70%;
 	   
 
 }
@@ -71,7 +54,8 @@ h1{
 	width: 200px;
 	padding-left: 2%;
 	padding-right: 2%;
-	text-align: right;
+	float: right;
+	margin:0 auto;
 
 	
 	
@@ -98,11 +82,11 @@ footer .container p  {
 }
 tr, td{
 	border-bottom: 1px solid gray;
-	padding-right: 130px;
+	padding-right: 200px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 25px;
-	width: 60%;
+	width: 50%;
 
 }
 b{
@@ -135,9 +119,33 @@ transition: height 2s ease;
 .fondo .container p{
 	font-size: 40px;
 }
+@media only screen (max-width: 800px) {
+	.container{
+		margin: 0;
+		overflow:hidden;
+		width: 100%;
+		font-variant: small-caps;
+      }
+      article img{
+      	clear: both;
+      	width: 50%;
+      	display: block;
+      }
+      
+		
+		
+		
+	}
+
+img:hover{
+-moz-transform: scale(3) translateX(5px) translateY(5px);
+-webkit-transform: scale(3) translateX(5px) translateY(5px);
+-o-transform: scale(3) translateX(5px) translateY(5px);
+-ms-transform: scale(3) translateX(5px) translateY(5px);
+transform: scale(.5) translateX(5px) translateY(5px);
 
 
-
+}
 
 
 
