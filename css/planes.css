@@ -6,36 +6,51 @@ p{
 	color: #EF1242;
 	font-size: 30px;
 }
+@media only screen (max-width: 800px) {
+	.container{
+		margin: 0;
+		overflow:hidden;
+		width: 100%;
+		font-variant: small-caps;
+      }
+      article img{
+      	clear: both;
+      	width: 50%;
+      	display: block;
+      }
+      
+		
+		
+		
+	}
 .container,.cont{
-	max-width: 1170px;
-	min-width: 780px;
-	width: 90%;
-	margin: 0 auto;
-    
+
+	margin: 0 auto;   
+	max-width: 1670px;
+	min-width: 670px;
+	width: 80%;
+	   
+
 }
 h1{
-	font-size: 50px;
+	font-size: 90px;
 }
  .box,.box p{
 	text-align: right;
-	margin-left: 20%;
-
-	
-    
+	margin-right: 10%; 
+	font-size: 40px;  
 }
 .caj div {
 	background: #646470;
 	text-align: right;
 	float: right;
-	margin-right: 2%;
-	
-
+	margin-right: 1%;
 
 }
-.caj div .num1,.caj div .num2,.caj div .num3 {
+.num1,.num2,.num3 {
 	border-right: .5px solid white;
 	float: left;
-	font-size: 100px;
+	font-size: 90px;
 
 }
 .num1{
@@ -46,19 +61,29 @@ h1{
 }
 .num3{
 	color:#18BEDD;
+	
 }
 .catego{
 	color: white;
-	display: inline;
+	display: inline-block;
 	font-size: 30px;
+	padding-top: 15px;
+	width: 200px;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: right;
+
 	
-
-
+	
 }
 footer{
 	clear: both;
 	background: black;
-	border-top: 5px solid #CE405E;
+	border-top: 18px solid #EA0F48;
+	padding-top: 3%;
+	height:  300px;
+	font-size: 55px;
+	padding-top: 5%;
 
 }
 footer .container p  {
@@ -76,10 +101,13 @@ tr, td{
 	padding-right: 130px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	font-size: 20px;
+	font-size: 25px;
+	width: 60%;
+
 }
 b{
-	font-size: 25px;
+	font-size: 35px;
+	text-align: center;
 }
 ul  li a,li{
 
@@ -88,10 +116,12 @@ ul  li a,li{
 	background:#CE405E;
 	color: white;
 	float: right;
-	width: 160px;
+	width: 200px;
 	text-align:center;
 	list-style: none;
 	margin-bottom: 2%;
+	font-size: 30px;
+	padding: 1%;
 }
 .container ul li a:hover{ 
 	background-color: white;
@@ -101,6 +131,9 @@ ul  li a,li{
 -ms-transition: height 2s ease;
 -o-transition: height 2s ease;
 transition: height 2s ease;
+}
+.fondo .container p{
+	font-size: 40px;
 }
 
 

@@ -2,13 +2,30 @@
 	color: red ;
 }
 .container{
-	max-width: 1170px;
-	min-width: 780px;
-	width: 90%;
-	margin: 0 auto;
+    margin: 0 auto;   
+	max-width: 1870px;
+	min-width: 670px;
+	width: 80%;
    
     
 }
+@media only screen (max-width: 800px) {
+	.container{
+		margin: 0;
+		overflow:hidden;
+		width: 100%;
+		font-variant: small-caps;
+      }
+      article img{
+      	clear: both;
+      	width: 50%;
+      	display: block;
+      }
+      
+		
+		
+		
+	}
 
 .cont3{
 	 background: #E4E6EC ;
@@ -38,9 +55,11 @@ footer .container p  {
 	display: block;
 	background:#CE405E;
 	color: white;
-	width: 120px;
+	width: 200px;
 	text-align:center;
-	width: 120px;
+	font-size: 30px;
+	margin-bottom: 2%;
+	
 
 }
 .unsplash{
@@ -49,18 +68,79 @@ footer .container p  {
 }
 fieldset{
 	border: 2px solid red;
+	font-size: 35px;
 
 }
 .titulo a {
 	border-bottom: dotted;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 35px;
 	color: gray;
 }
 p, .tit1, .tit2 {
-	font-size: 23px;
+	font-size: 35px;
 }
 h4{
 	display: inline-block;
 	color: gray;
+	font-size: 20px;
+}
+.titulo{
+	font-size: 70px;
+}
+input{
+	padding: 10px;
+	margin: 0 ;
+}
+option{
+	font-size: 30px;
+}
+.face{
+	background-color: blue;
+	color:white;
+	padding: 15px;
+	border-radius: 100% ;
+	font-size: 35px;
+	padding-bottom: 10%;
+
+}
+.twitter{
+	color: white;
+	background-color: #1DA4FC;
+	border-radius: 50% 50%;
+	padding: 10px;
+	font-size: 35px;
+	
+}
+.pinter{
+	color: white;
+	background-color: #F91244;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 38px;
+
+}
+.plus{
+	color: white;
+	background-color: #FA450D;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 25px;
+
+}
+.email{
+	color: white;
+	background-color: gray;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 30px;
+	list-style: none;
+}
+.social{
+	position: fixed;
+	left: 0%;
+	top: 30%;
+	z-index: 200;
+
+
 }

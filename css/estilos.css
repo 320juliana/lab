@@ -4,30 +4,50 @@
 	
 
 }
+@media only screen (max-width: 800px) {
+	.container{
+		margin: 0;
+		overflow:hidden;
+		width: 100%;
+		font-variant: small-caps;
+      }
+      article img{
+      	clear: both;
+      	width: 50%;
+      	display: block;
+      }
+      
+		
+		
+		
+	}
+.foto{
+	width: 150px;
+}
 
 
  .fondo {
 	background-image: url(../img/bg-seccion1.png);
 	background-repeat: no-repeat;
-	background-size: 100% 100%  ;
-	height: 600px;
+	background-size: cover ;
+	height: 1300px;
+	background-position: center;
 	
    
 } 
 
 h1 {
 	
-	font-family: 'Niramit', sans-serif;
-	font-size: 40px;
+	font-size: 130px;
 	color: #4B504E;
-	padding-top: 10%;
+	padding-top: 17%;
+	
+
 	
 } 
 .pro:hover {
 	background-color: #FC000F;
 	font-size: 30px;
-
-
 		-moz-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
 		-webkit-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
 		-o-transform: scale(1) rotate(360deg) translateX(10px) translateY(10px) skewX(10deg);
@@ -55,30 +75,34 @@ h1 {
 			-o-transition: all 1000ms ease-in-out;
 			transition: all 2s ease-in-out;
 }
-ul  li .pro{
+.pro{
 
 	text-decoration: none;
 	display: block;
-	background:#CE405E;
+	background:#EA0F48;
 	color: white;
 	float: left;
-	width: 120px;
+	width: 146px;
 	text-align:center;
+	padding:10px;
+	font-size: 40px;
+	margin-top: 4%;
+
 }
 .pri {
-	margin-left: 1%;
+	margin-left: 6px;
 	text-decoration: none;
 	display: block;
-	background:#CE405E;
+	background:#EA0F48;
 	color: white;
 	float: left;
-	width: 120px;
+	width: 146px;
 	text-align:center;
-	width: 120px;
+	padding:10px;
+	font-size: 40px;
+	margin-top: 4%;
 
 }
-
-
 ul{
 	list-style: none;
 	
@@ -87,42 +111,127 @@ ul{
 article{
 	size: 20px;
 	float: left;
-
 }
 article .puntos{
 	padding: 5px;
 	clear: both;
 	padding-left: 20%;
 	list-style: square;
-
+	font-size: 30px;
 }
 .container{
-	max-width: 1170px;
-	min-width: 780px;
+	max-width: 1870px;
+	min-width: 670px;
 	width: 90%;
-	margin: 0 auto;
-    
+	   
 }
 footer{
 	clear: both;
 	background: black;
-	border-top: 5px solid #CE405E;
-
+	border-top: 18px solid #EA0F48;
+	padding-top: 3%;
+	height:  430px;
+	font-size: 35px;
+	padding-top: 4%;
 }
 footer .container p  {
 	color: white;
+	padding-top: 2%;
+
 }
 .unsplash{
 	color: gray;
-
 }
 .container article .tr{
-	padding: 10px;
-	font-size: 30px;
+	padding-left: 20%;
+	font-size: 45px;
+	padding-top: 30%;
+	
 
 }
-section .container
+article ul li{
+	padding-top: 2%;
+	margin: 5px;
 }
+
+a :hover{
+	-moz-transform: scale(2) rotate(3deg) translateX(2px) translateY(3px) skewX(4deg) skewY(4deg);
+-webkit-transform: scale(2) rotate(3deg) translateX(2px) translateY(3px) skewX(4deg) skewY(4deg);
+-o-transform: scale(2) rotate(3deg) translateX(2px) translateY(3px) skewX(4deg) skewY(4deg);
+-ms-transform: scale(2) rotate(3deg) translateX(2px) translateY(3px) skewX(4deg) skewY(4deg);
+transform: scale(2) rotate(3deg) translateX(2px) translateY(3px) skewX(4deg) skewY(4deg);
+-webkit-transition: all 2s linear;
+-moz-transition: all 2s linear;
+-ms-transition: all 2s linear;
+-o-transition: all 2s linear;
+transition: all 2s linear;
+
+
+}
+.face{
+	background-color: blue;
+	color:white;
+	padding: 15px;
+	border-radius: 100% ;
+	font-size: 35px;
+	padding-bottom: 10%;
+
+}
+.twitter{
+	color: white;
+	background-color: #1DA4FC;
+	border-radius: 50% 50%;
+	padding: 10px;
+	font-size: 35px;
+	
+}
+.pinter{
+	color: white;
+	background-color: #F91244;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 38px;
+
+}
+.plus{
+	color: white;
+	background-color: #FA450D;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 25px;
+
+}
+.email{
+	color: white;
+	background-color: gray;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 30px;
+}
+.social{
+	position: fixed;
+	left: 0%;
+	top: 30%;
+	z-index: 200;
+
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.container .ll{
+	font-size: 50px;
+	color: #373737;
+	padding-top: 4%;
+}
+article img{
+	width: 800px;
+	height: 520px;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+
 
 
 
